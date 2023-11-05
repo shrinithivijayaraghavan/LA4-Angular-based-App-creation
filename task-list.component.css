@@ -1,0 +1,60 @@
+/* task-list.component.css */
+.task-item {
+  margin: 10px 0;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  color: #333333;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.delete-btn {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #e45050;
+}
+
+/* add-task.component.css */
+.task-input {
+  padding: 15px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  width: 70%;
+  margin-right: 10px;
+  background-color: #f5f5f5;
+  color: #333333;
+  transition: border-color 0.3s ease;
+}
+
+.task-input:focus {
+  border-color: #54c079; 
+}
+
+.add-btn {
+  background-color: #54c079;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 12px 24px;
+  border-radius: 20px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #42a468;
+}
